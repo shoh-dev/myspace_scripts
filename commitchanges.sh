@@ -4,7 +4,7 @@ commit_changes() {
     # get current date and time (example: 2018-01-01 01:01:01)
     now=$(date +"%Y-%m-%d %H:%M:%S")
 
-    echo ">>>>>>>>> Committing changes on $now <<<<<<<<<"
+    echo "\n>>>>>>>>> Committing changes on $now <<<<<<<<<\n"
   
     # commit changes 
     git add .
@@ -12,17 +12,17 @@ commit_changes() {
     git push
 }
 
-echo ">>>>>>>>> Commiting myspace_scripts <<<<<<<<<"
+echo "\n>>>>>>>>> Commiting myspace_scripts <<<<<<<<<"
 commit_changes
 
 # go all packages one by one and commit changes
 cd packages
 
-echo ">>>>>>>>> Moving to myspace_redux <<<<<<<<<"
+echo "\n>>>>>>>>> Moving to myspace_redux <<<<<<<<<"
 cd myspace_redux
 commit_changes
 
-echo ">>>>>>>>> Moving to myspace_design_system <<<<<<<<<"
+echo "\n>>>>>>>>> Moving to myspace_design_system <<<<<<<<<"
 cd ../myspace_design_system
 commit_changes
 
