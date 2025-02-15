@@ -22,12 +22,10 @@ echo "\n>>>>>>>>> Moving to myspace_redux"
 cd myspace_redux
 commit_changes
 
+echo "\n>>>>>>>>> Moving to myspace_data"
+cd ../myspace_data
+commit_changes
+
 echo "\n>>>>>>>>> Moving to myspace_design_system"
 cd ../myspace_design_system
 commit_changes
-
-
-
-
-
-
