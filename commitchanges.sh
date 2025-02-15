@@ -12,6 +12,9 @@ commit_changes() {
     git push
 }
 
+echo "Commiting myspace_scripts"
+commit_changes
+
 # go all packages one by one and commit changes
 cd packages
 
@@ -22,6 +25,8 @@ commit_changes
 echo "Moving to myspace_design_system"
 cd ../myspace_design_system
 commit_changes
+
+
 
 
 
