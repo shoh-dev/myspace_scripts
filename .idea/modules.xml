@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/packages/myspace_redux/example/melos_example.iml" filepath="$PROJECT_DIR$/packages/myspace_redux/example/melos_example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/myspace_core/melos_myspace_core.iml" filepath="$PROJECT_DIR$/packages/myspace_core/melos_myspace_core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/myspace_data/melos_myspace_data.iml" filepath="$PROJECT_DIR$/packages/myspace_data/melos_myspace_data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/myspace_design_system/melos_myspace_design_system.iml" filepath="$PROJECT_DIR$/packages/myspace_design_system/melos_myspace_design_system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/myspace_flutter_tool/melos_myspace_flutter_tool.iml" filepath="$PROJECT_DIR$/apps/myspace_flutter_tool/melos_myspace_flutter_tool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/myspace_redux/melos_myspace_redux.iml" filepath="$PROJECT_DIR$/packages/myspace_redux/melos_myspace_redux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/melos_myspace.iml" filepath="$PROJECT_DIR$/melos_myspace.iml" />
+    </modules>
+  </component>
+</project>
