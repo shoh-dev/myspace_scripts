@@ -12,14 +12,14 @@ commit_changes() {
     git push
 }
 
-echo "\n>>>>>>>>> Commiting myspace_scripts"
+echo "\n>>>>>>>>> Commiting myspace scripts"
 commit_changes
 
 # go all packages one by one and commit changes
 cd packages
 
-echo "\n>>>>>>>>> Moving to myspace_redux"
-cd myspace_redux
+echo "\n>>>>>>>>> Moving to myspace_core"
+cd ../myspace_core
 commit_changes
 
 echo "\n>>>>>>>>> Moving to myspace_data"

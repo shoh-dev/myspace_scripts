@@ -3,4 +3,3 @@ name: myspace
 packages:
   - apps/*
   - packages/*
-  - packages/myspace_redux/example
