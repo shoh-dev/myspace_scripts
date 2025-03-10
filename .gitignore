@@ -5,3 +5,6 @@
 
 /apps/
 /packages/
+
+# FVM Version Cache
+.fvm/
